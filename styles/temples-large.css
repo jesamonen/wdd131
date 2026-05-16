@@ -1,0 +1,15 @@
+@media (min-width: 700px) {
+
+    #menuBtn {
+        display: none;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background: #34495e;
+}
+
+/* HAMBURGER */
+#menuBtn {
+    display: block;
+    background: none;
+    color: white;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* MAIN */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+}
+
+/* GRID (mobile = 1 column) */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+figure {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background: #2c3e50;
+    color: white;
+    padding: 1rem;
+}

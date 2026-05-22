@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>W03 Assignment: Country Page - Nigeria</title>
+  <meta name="description" content="Dynamic Web Fundamentals country project highlighting Nigeria.">
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>Jos, Nigeria</h1>
+  </header>
+
+  <main class="hero-container">
+    <!-- Responsive image implementation using WebP format -->
+    <picture class="hero-image">
+      <source srcset="images/hero-small.webp" media="(max-width: 600px)">
+      <img src="images/hero-large.webp" alt="Scenic landscape of Shere Hills in Jos, Nigeria" width="1200" height="600">
+    </picture>
+
+    <!-- Data Section Card -->
+    <section class="card data-card">
+      <h2>Data</h2>
+      <ul>
+        <li><span class="label">Area:</span> <span class="value">923,769 km²</span></li>
+        <li><span class="label">Population:</span> <span class="value">230 Million</span></li>
+        <li><span class="label">Capital:</span> <span class="value">Abuja</span></li>
+        <li><span class="label">Language:</span> <span class="value">English</span></li>
+        <li><span class="label">Currency:</span> <span class="value">Naira (₦)</span></li>
+        <li><span class="label">Time Zone:</span> <span class="value">GMT+1</span></li>
+      </ul>
+    </section>
+
+    <!-- Weather Section Card -->
+    <section class="card weather-card">
+      <h2 class="weather-heading">Weather</h2>
+      <!-- SVG image container for mobile view (3.png) -->
+      <div class="weather-icon-container">
+        <img src="images/weather-icon.svg" alt="Weather condition icon" class="weather-svg">
+      </div>
+      <ul>
+        <li><span class="label">Temperature:</span> <span class="value">9 °C</span></li>
+        <li><span class="label">Condition:</span> <span class="value">Cool Breezes</span></li>
+        <li><span class="label">Wind:</span> <span class="value">15 km/h</span></li>
+        <li><span class="label">Wind Chill:</span> <span id="windchill" class="value"></span></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> | Jesam Onen | Nigeria / WDD 131</p>
+    <p id="lastModified"></p>
+  </footer>
+
+</body>
+</html>

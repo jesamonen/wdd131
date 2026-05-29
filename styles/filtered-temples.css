@@ -31,9 +31,22 @@ nav button {
     cursor: pointer;
     border-radius: 5px;
 }
-
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
 nav button:hover {
     background-color: #ddd;
+}
+nav a {
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    background-color: white;
+    color: #2d2d72;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 main {
@@ -83,4 +96,10 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
+}
+/* Large screen layout */
+@media screen and (min-width: 768px) {
+    .temple-container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
 }

@@ -17,37 +17,35 @@ header {
     text-align: center;
 }
 
+/* Navigation */
+
 nav {
     margin-top: 1rem;
 }
 
-nav button {
-    padding: 0.7rem 1rem;
-    margin: 0.3rem;
-    border: none;
-    background-color: white;
-    color: #2d2d72;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
-}
-nav {
+nav ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 0.5rem;
+    list-style: none;
 }
-nav button:hover {
-    background-color: #ddd;
-}
+
 nav a {
-    text-decoration: none;
+    display: block;
     padding: 0.75rem 1rem;
+    text-decoration: none;
     background-color: white;
     color: #2d2d72;
     border-radius: 5px;
     font-weight: bold;
 }
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+/* Main Content */
 
 main {
     max-width: 1200px;
@@ -70,7 +68,7 @@ main {
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding-bottom: 1rem;
     text-align: center;
 }
@@ -90,6 +88,8 @@ main {
     padding: 0 1rem;
 }
 
+/* Footer */
+
 footer {
     margin-top: 2rem;
     background-color: #2d2d72;
@@ -97,7 +97,9 @@ footer {
     text-align: center;
     padding: 1rem;
 }
-/* Large screen layout */
+
+/* Media Query */
+
 @media screen and (min-width: 768px) {
     .temple-container {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

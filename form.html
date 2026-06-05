@@ -1,21 +1,15 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-        content="Submit a product review by rating products, selecting useful features, and providing feedback.">
-
+    <meta name="description"content="Submit a product review by rating products, selecting useful features, and providing feedback.">
     <meta name="author" content="Jesam Onen">
-
     <title>Product Review Form</title>
-
     <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/form.js" defer></script>
 </head>
-
 <body>
 
     <header>
@@ -25,22 +19,23 @@
     <main>
         <form method="get" action="review.html">
 
-            <!-- Product Name -->
             <div class="form-group">
                 <label for="product">Product Name *</label>
 
                 <select id="product" name="product" required>
+
                     <option value="" disabled selected>
                         Select a Product ...
                     </option>
+
                 </select>
             </div>
 
-            <!-- Overall Rating -->
             <fieldset class="form-group">
                 <legend>Overall Rating *</legend>
 
                 <div class="rating">
+
                     <input type="radio" id="star1" name="rating" value="1" required>
                     <label for="star1">★</label>
 
@@ -55,83 +50,64 @@
 
                     <input type="radio" id="star5" name="rating" value="5" required>
                     <label for="star5">★★★★★</label>
+
                 </div>
             </fieldset>
 
-            <!-- Date of Installation -->
             <div class="form-group">
-                <label for="installDate">Date of Installation *</label>
+                <label for="installDate">
+                    Date of Installation *
+                </label>
 
-                <input
-                    type="date"
-                    id="installDate"
-                    name="installDate"
-                    required>
+                <input type="date" id="installDate" name="installDate" required>
             </div>
 
-            <!-- Useful Features -->
             <fieldset class="form-group">
                 <legend>Useful Features</legend>
 
                 <div class="checkbox-group">
 
-                    <input
-                        type="checkbox"
-                        id="durability"
-                        name="features"
-                        value="Durability">
-                    <label for="durability">Durability</label>
+                    <input type="checkbox" id="durability" name="features" value="Durability">
+                    <label for="durability">
+                        Durability
+                    </label>
 
-                    <input
-                        type="checkbox"
-                        id="ease"
-                        name="features"
-                        value="Ease of Use">
-                    <label for="ease">Ease of Use</label>
+                    <input type="checkbox" id="ease" name="features" value="Ease of Use">
+                    <label for="ease">
+                        Ease of Use
+                    </label>
 
-                    <input
-                        type="checkbox"
-                        id="performance"
-                        name="features"
-                        value="Performance">
-                    <label for="performance">Performance</label>
+                    <input type="checkbox" id="performance" name="features" value="Performance">
+                    <label for="performance">
+                        Performance
+                    </label>
 
-                    <input
-                        type="checkbox"
-                        id="design"
-                        name="features"
-                        value="Design">
-                    <label for="design">Design</label>
+                    <input type="checkbox" id="design" name="features" value="Design">
+                    <label for="design">
+                        Design
+                    </label>
 
                 </div>
             </fieldset>
 
-            <!-- Written Review -->
             <div class="form-group">
-                <label for="review">Written Review</label>
+                <label for="review">
+                    Written Review
+                </label>
 
-                <textarea
-                    id="review"
-                    name="review"
-                    rows="5"></textarea>
+                <textarea id="review" name="review" rows="5"></textarea>
             </div>
 
-            <!-- User Name -->
             <div class="form-group">
-                <label for="username">User Name</label>
+                <label for="username">
+                    User Name
+                </label>
 
-                <input
-                    type="text"
-                    id="username"
-                    name="username">
+                <input type="text" id="username" name="username">
             </div>
 
-            <!-- Submit Button -->
             <div class="form-group">
-                <input
-                    type="submit"
-                    value="Submit Review"
-                    class="submit-btn">
+                <input type="submit" value="Submit Review" class="submit-btn">
             </div>
 
         </form>
@@ -139,21 +115,14 @@
 
     <footer>
         <p>
-            &copy; <span id="currentyear"></span>
-            Jesam Onen | Nigeria
+            &copy;
+            <span id="currentyear"></span>
+            | Jesam Onen | Nigeria
         </p>
 
         <p id="lastModified"></p>
     </footer>
 
-    <script>
-        document.getElementById("currentyear").textContent =
-            new Date().getFullYear();
-
-        document.getElementById("lastModified").textContent =
-            `Last Modified: ${document.lastModified}`;
-    </script>
-
 </body>
+
 </html>
-```

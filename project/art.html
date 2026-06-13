@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Nigerian traditional art, sculptures, paintings, and cultural festivals.">
+    <meta name="author" content="Jesam Onen">
+
+    <title>Art & Culture | Nigerian Art & Culture Showcase</title>
+
+    <link rel="stylesheet" href="styles/foundation.css">
+    <link rel="stylesheet" href="styles/art.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/gallery.js" defer></script>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<h1>Nigerian Art & Culture Showcase</h1>
+</div>
+
+<button id="menuBtn">&#9776;</button>
+
+<nav id="navigation">
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="art.html" class="active">Art & Culture</a></li>
+<li><a href="artist.html">Artists</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<main>
+
+<section class="page-banner">
+
+<h2>Nigerian Art & Culture</h2>
+
+<p>
+
+Discover centuries of artistic excellence, traditional craftsmanship,
+and cultural celebrations that continue to inspire generations.
+
+</p>
+
+</section>
+
+<!-- Traditional Art -->
+
+<section>
+
+<h2>Traditional Art</h2>
+
+<div class="info-grid">
+
+<article>
+
+<img
+src="images/nok.webp"
+alt="Nok Terracotta Sculpture"
+loading="lazy">
+
+<h3>Nok Terracotta</h3>
+
+<p>
+
+The Nok civilization produced remarkable terracotta sculptures between
+500 BC and 200 AD. Their expressive human figures represent one of
+Africa's oldest known artistic traditions.
+
+</p>
+
+</article>
+
+<article>
+
+<img
+src="images/ife.webp"
+alt="Ife Bronze Head"
+loading="lazy">
+
+<h3>Ife Art</h3>
+
+<p>
+
+The ancient city of Ife became famous for producing incredibly realistic
+bronze and terracotta heads that demonstrate advanced artistic skill.
+
+</p>
+
+</article>
+
+<article>
+
+<img
+src="images/benin.webp"
+alt="Benin Bronze Plaque"
+loading="lazy">
+
+<h3>Benin Bronzes</h3>
+
+<p>
+
+The Kingdom of Benin created detailed bronze plaques, ceremonial objects,
+and royal sculptures using the lost-wax casting method.
+
+</p>
+
+</article>
+
+</div>
+
+</section>
+
+<!-- Sculpture -->
+
+<section>
+
+<h2>Sculpture</h2>
+
+<p>
+
+Wood carving, bronze casting, ivory carving, and terracotta sculpture
+remain among Nigeria's most respected artistic traditions. Sculptures
+often symbolize leadership, spirituality, family history, and cultural
+identity.
+
+</p>
+
+</section>
+
+<!-- Paintings -->
+
+<section>
+
+<h2>Modern Paintings</h2>
+
+<p>
+
+Modern Nigerian artists combine traditional themes with contemporary
+techniques, creating paintings that celebrate culture while addressing
+modern social issues.
+
+</p>
+
+</section>
+
+<!-- Festivals -->
+
+<section>
+
+<h2>Major Cultural Festivals</h2>
+
+<div class="festival-grid">
+
+<article class="festival-card">
+
+<img
+src="images/osun.webp"
+alt="Osun Osogbo Festival"
+loading="lazy">
+
+<h3>Osun-Osogbo Festival</h3>
+
+<p>
+
+Celebrates the Yoruba river goddess Osun with music, dance,
+traditional rituals, and colorful processions.
+
+</p>
+
+</article>
+
+<article class="festival-card">
+
+<img
+src="images/durbar.webp"
+alt="Durbar Festival"
+loading="lazy">
+
+<h3>Durbar Festival</h3>
+
+<p>
+
+A spectacular northern Nigerian horse-riding festival featuring royal
+processions, music, and traditional costumes.
+
+</p>
+
+</article>
+
+<article class="festival-card">
+
+<img
+src="images/argungu.webp"
+alt="Argungu Fishing Festival"
+loading="lazy">
+
+<h3>Argungu Fishing Festival</h3>
+
+<p>
+
+A famous annual fishing competition that attracts thousands of visitors
+from around the world.
+
+</p>
+
+</article>
+
+</div>
+
+</section>
+
+<!-- Dynamic Gallery -->
+
+<section>
+
+<h2>Interactive Artwork Gallery</h2>
+
+<p>
+
+Use the buttons below to explore Nigerian artworks by category.
+
+</p>
+
+<div class="filter-buttons">
+
+<button class="filter-btn" data-category="all">
+
+All
+
+</button>
+
+<button class="filter-btn" data-category="sculpture">
+
+Sculptures
+
+</button>
+
+<button class="filter-btn" data-category="painting">
+
+Paintings
+
+</button>
+
+<button class="filter-btn" data-category="festival">
+
+Festivals
+
+</button>
+
+</div>
+
+<div id="artGallery" class="gallery-grid">
+
+<!-- JavaScript will display artwork cards here -->
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<p>
+
+&copy;
+<span id="currentYear"></span>
+
+Nigerian Art & Culture Showcase
+
+</p>
+
+<p>
+
+<a href="references.html">
+
+References
+
+</a>
+
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,187 @@
+
+/* =========================
+   PAGE BANNER
+========================= */
+
+.page-banner {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #ffffff;
+    border-bottom: 3px solid #0b6e4f;
+}
+
+.page-banner h2 {
+    color: #0b6e4f;
+    margin-bottom: 0.5rem;
+}
+
+/* =========================
+   ABOUT SECTION
+========================= */
+
+.about {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+/* =========================
+   FEATURED CARDS (HOME)
+========================= */
+
+.featured {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card h3 {
+    margin: 1rem 0 0.5rem;
+    color: #0b6e4f;
+}
+
+.card p {
+    padding: 0 1rem 1rem;
+}
+
+.card a {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #8b5e3c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* =========================
+   GALLERY GRID
+========================= */
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* =========================
+   ART PAGE GRID
+========================= */
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.info-grid article {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.info-grid img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* =========================
+   FESTIVAL CARDS
+========================= */
+
+.festival-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.festival-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.festival-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* =========================
+   ARTISTS GRID
+========================= */
+
+.artist-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.artist-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.artist-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+/* =========================
+   FILTER BUTTONS
+========================= */
+
+.filter-buttons {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.filter-btn {
+    margin: 0.3rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #0b6e4f;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-btn:hover {
+    background-color: #084c38;
+}

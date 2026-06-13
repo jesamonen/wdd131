@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Famous Nigerian Artists">
+    <title>Artists | Nigerian Art & Culture</title>
+
+    <link rel="stylesheet" href="styles/foundation.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/artist.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <h1>Nigerian Art & Culture Showcase</h1>
+    </div>
+
+    <button id="menuBtn">&#9776;</button>
+
+    <nav id="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="art.html">Art & Culture</a></li>
+            <li><a href="artists.html" class="active">Artists</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="page-banner">
+    <h2>Famous Nigerian Artists</h2>
+    <p>Nigeria has produced internationally recognized painters, sculptors, textile designers, and printmakers.</p>
+</section>
+
+<!-- Greeting -->
+<section>
+    <h2 id="visitorGreeting">Welcome!</h2>
+    <p>If you've visited before, we'll remember your favorite artist.</p>
+</section>
+
+<!-- Search -->
+<section>
+    <h2>Find an Artist</h2>
+    <input type="search" id="searchArtist" placeholder="Search artist name...">
+</section>
+
+<!-- Featured -->
+<section>
+    <h2>Featured Artist</h2>
+    <button id="randomArtistBtn">Show Random Artist</button>
+
+    <div id="featuredArtist"></div>
+</section>
+
+<!-- Artist list -->
+<section>
+    <h2>Meet the Artists</h2>
+    <div id="artistContainer" class="artist-grid"></div>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; <span id="currentYear"></span> Nigerian Art & Culture Showcase</p>
+    <a href="references.html">References</a>
+</footer>
+
+</body>
+</html>

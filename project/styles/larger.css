@@ -1,0 +1,89 @@
+
+/* =========================
+   TABLET & DESKTOP STYLES
+   (min-width: 768px)
+========================= */
+
+@media screen and (min-width: 768px) {
+
+    /* NAVIGATION */
+    nav {
+        display: block !important;
+        width: auto;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+    }
+
+    #menuBtn {
+        display: none;
+    }
+
+    /* HERO */
+    .hero-text {
+        max-width: 60%;
+        font-size: 1.1rem;
+    }
+
+    /* CARD LAYOUTS */
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .info-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .festival-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .artist-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* =========================
+   DESKTOP (1024px and up)
+========================= */
+
+@media screen and (min-width: 1024px) {
+
+    /* CARD LAYOUTS */
+    .card-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .info-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .festival-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .artist-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* PAGE SPACING */
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .hero-text {
+        font-size: 1.3rem;
+    }
+}

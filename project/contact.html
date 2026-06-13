@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact the Nigerian Art & Culture Showcase team.">
+    <meta name="author" content="Jesam Onen">
+
+    <title>Contact | Nigerian Art & Culture Showcase</title>
+
+    <link rel="stylesheet" href="styles/foundation.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+     <script src="scripts/main.js" defer></script>
+    <script src="scripts/contact.js" defer></script>
+</head>
+<body>
+
+<header>
+
+    <div class="logo">
+        <h1>Nigerian Art & Culture Showcase</h1>
+    </div>
+
+    <button id="menuBtn" aria-label="Open navigation menu">&#9776;</button>
+
+    <nav id="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="art.html">Art & Culture</a></li>
+            <li><a href="artists.html">Artists</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+<section class="page-banner">
+
+<h2>Contact Us</h2>
+
+<p>
+
+We would love to hear your thoughts about Nigerian art and culture.
+Please complete the form below.
+
+</p>
+
+</section>
+
+<section class="contact-container">
+
+<form id="contactForm">
+
+<fieldset>
+
+<legend>Visitor Information</legend>
+
+<div class="form-group">
+
+<label for="fullName">
+
+Full Name
+
+</label>
+
+<input
+type="text"
+id="fullName"
+name="fullName"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label for="email">
+
+Email Address
+
+</label>
+
+<input
+type="email"
+id="email"
+name="email"
+required>
+
+</div>
+
+<div class="form-group">
+
+<label for="country">
+
+Country
+
+</label>
+
+<input
+type="text"
+id="country"
+name="country"
+required>
+
+</div>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Feedback</legend>
+
+<div class="form-group">
+
+<label for="topic">
+
+Favorite Topic
+
+</label>
+
+<select id="topic" name="topic">
+
+<option value="">Choose one</option>
+
+<option value="Traditional Art">
+Traditional Art
+</option>
+
+<option value="Paintings">
+Paintings
+</option>
+
+<option value="Festivals">
+Festivals
+</option>
+
+<option value="Artists">
+Artists
+</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<label for="message">
+
+Your Message
+
+</label>
+
+<textarea
+id="message"
+name="message"
+rows="6"
+required></textarea>
+
+</div>
+
+</fieldset>
+
+<div class="checkbox">
+
+<input
+type="checkbox"
+id="newsletter">
+
+<label for="newsletter">
+
+Receive updates about new artwork.
+
+</label>
+
+</div>
+
+<input
+type="submit"
+value="Send Feedback"
+class="button">
+
+<input
+type="reset"
+value="Clear Form"
+class="button secondary">
+
+</form>
+
+</section>
+
+<section id="responseMessage" class="response-box">
+
+<!-- JavaScript displays success message -->
+
+</section>
+
+</main>
+
+<footer>
+
+<p>
+
+&copy;
+<span id="currentYear"></span>
+
+Nigerian Art & Culture Showcase
+
+</p>
+
+<p>
+
+<a href="references.html">
+
+References
+
+</a>
+
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
+</body>
+</html>

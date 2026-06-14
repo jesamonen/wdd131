@@ -15,7 +15,7 @@ const artworks = [
         title: "Benin Bronzes",
         category: "sculpture",
         region: "Edo State",
-        image: "images/benin.webp",
+        image: "images/benin_bronze.jpg",
         description: "Royal bronze plaques and sculptures from the Kingdom of Benin."
     },
     {

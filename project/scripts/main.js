@@ -36,7 +36,7 @@ if (menuBtn && nav) {
 const heroImages = [
     "images/hero1.webp",
     "images/nok.webp",
-    "images/benin.webp",
+    "images/benin_bronze.jpg",
     "images/festival.webp"
 ];
 
